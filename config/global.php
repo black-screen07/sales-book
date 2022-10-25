@@ -1,5 +1,6 @@
 <?php
 //Don't remove owner Link
+//SalesBook.dev by ivoire openSource
 return [
     'owner' => 'Egnin Aka Emmanuel Freddy',
     'ownerLink' => 'https://www.linkedin.com/in/aka-freddy-emmanuel-egnin-642805195/',
