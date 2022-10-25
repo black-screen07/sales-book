@@ -1,0 +1,107 @@
+table{
+    width: 100%;
+}
+
+
+.card-body > a{
+    display: block !important;
+    outline: none !important;
+    color: #ffffff !important;
+}
+.card-body > a:hover{
+    outline: none !important;
+    text-decoration: none !important;
+}
+
+.select2-container--default .select2-selection--single {
+    border: 1px solid #d1d3e2;
+    background-color: #ffffff;
+    border-radius: 4px;
+    height: 39px;
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.ess-card-no-bg .select2-container--default .select2-selection--single {
+    border-radius: 0px;
+    border-bottom: 1px solid #6767678f;
+}
+.select2-container--default .select2-selection--single:hover {
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 39px;
+    color: #676767;
+    padding-left: 15px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered:focus,
+.select2-container--default .select2-selection--single .select2-selection__rendered:active,
+.select2-container--default .select2-selection--single .select2-selection__rendered:hover {
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 26px;
+    position: absolute;
+    top: 8px;
+    right: 1px;
+    width: 20px;
+}
+.select2-results__option {
+    padding: 8px 15px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #4e73df;
+    color: #000000;
+}
+.select2-dropdown {
+    border: 1px solid #ffffff;
+    background-color: #f2f3f7;
+    padding: 8px 10px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.1);
+    z-index: 9999999999999999;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field{
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+
+
+.btn .icon i{
+    color: rgba(255,255,255,.5)!important;
+}
+
+
+a.img{
+    position: relative;
+    display: inline-block !important;
+    background-color: #ffffff;
+    height: 40px;
+    width: 40px;
+    border-radius: 4px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+}
+.text-dark{
+    color: #000000 !important;
+}
+
+
+.ess-table-header-fixed{
+    position: relative !important;
+    border-collapse: collapse !important;
+}
+.ess-table-header-fixed th{
+    position: sticky !important;
+    top: -1px;
+    z-index: 1;
+}
